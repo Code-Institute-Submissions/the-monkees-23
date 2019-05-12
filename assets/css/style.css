@@ -5,8 +5,6 @@ body {
     height: 100%;
     width: 100%;
     font-family: 'poppins', sans-serif;
-    color: #fff;
-    background-color: #424949;
 }
 
 /*---------------- NAV ------------------*/
@@ -27,7 +25,14 @@ body {
 /*------------- MAIN PIC ------------------*/
 
 .main-pic {
-    background-color: blue;
+    background-color: #fff;
+}
+
+/*------------- SONGS -----------------------*/
+
+.songs {
+        color: #fff;
+      background-color: #424949;
 }
 
 /*------------ WEDDINGS ---------------------*/
@@ -40,8 +45,8 @@ body {
     border-radius: 20px;
 }
 
-.fun:hover{
-    background-color: #fff; 
+.fun:hover {
+    background-color: #fff;
     color: #DD340B;
     transition: .5s;
     border-color: #DD340B;
@@ -58,8 +63,8 @@ body {
     border-radius: 10px;
 }
 
-.booking-btn:hover{
-    background-color: #fff; 
+.booking-btn:hover {
+    background-color: #fff;
     color: #DD340B;
     transition: .5s;
     border-color: #DD340B;
