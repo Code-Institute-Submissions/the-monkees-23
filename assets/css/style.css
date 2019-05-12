@@ -183,7 +183,7 @@ hr.light-100 {
         font-size: 2.5em;
         padding: 1.2rem;
     }
-    video {
+    .video {
         width: 400;
     }
 }
@@ -206,7 +206,7 @@ hr.light-100 {
         font-size: 90%;
         padding: 4px 8px;
     }
-    .carousel-indicators{
+    .carousel-indicators {
         display: none;
     }
     .display-4 {
@@ -216,8 +216,8 @@ hr.light-100 {
         font-size: 2em;
         padding: .7rem;
     }
-     video {
+    .video {
         width: 200;
     }
-    
+
 }
