@@ -30,10 +30,11 @@ body {
 /*------------ WEDDINGS ---------------------*/
 
 .fun {
-    font-size: 50px;
+    font-size: 30px;
     background-color: #DD340B;
     color: #fff;
     margin-bottom: 2rem;
+    border-radius: 20px;
 }
 
 .wedding-pic {
