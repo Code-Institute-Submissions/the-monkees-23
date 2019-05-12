@@ -1,10 +1,10 @@
-@import url('https://fonts.googleapis.com/css?family=Poppins:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
+@import url('https://fonts.googleapis.com/css?family=font-family:Luckiest Guy:100,200,300,400,500,600,700|Exo:100,200,300,400,500,600,700');
 
 html,
 body {
     height: 100%;
     width: 100%;
-    font-family: 'poppins', sans-serif;
+    font-family:'Luckiest Guy', cursive;, sans-serif;
 }
 
 /*---------------- NAV ------------------*/
@@ -25,6 +25,7 @@ body {
 /*------------- MAIN PIC ------------------*/
 
 .main-pic {
+    width: 100%;
     background-color: #fff;
 }
 
@@ -56,6 +57,13 @@ body {
     height: 100px;
     width: 100px;
 }
+
+.wed-rings-img {
+    height: 300px; 
+    width: 380px;
+}
+
+
 
 .booking-btn {
     background-color: #DD340B;
@@ -157,6 +165,9 @@ hr.light-100 {
         font-size: 2.5em;
         padding: 1.2rem;
     }
+     .video {
+        width: 480px;
+    }
 }
 
 @media (max-width: 576px) {
@@ -168,5 +179,7 @@ hr.light-100 {
         font-size: 2em;
         padding: .7rem;
     }
-
+    .video {
+        width: 380px;
+    }
 }
