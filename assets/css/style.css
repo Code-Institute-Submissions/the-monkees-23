@@ -25,15 +25,15 @@ body {
 
 /*------------- MAIN PIC ------------------*/
 
-.main-pic {
-    position: absolute;
-    right: 50%;
-}
+.main-pic {}
 
 /*------------ WEDDINGS ---------------------*/
 
 .fun {
-    width: 100%;
+    font-size: 50px;
+    background-color: #DD340B;
+    color: #fff;
+    width: 90%;
     margin-bottom: 2rem;
 }
 
@@ -43,8 +43,16 @@ body {
 }
 
 .booking-btn {
-    background-color: red;
+    background-color: #DD340B;
     color: #fff;
+    border-radius: 10px;
+}
+
+.booking-btn:hover{
+    background-color: #fff; 
+    color: #DD340B;
+    transition: .5s;
+    border-color: #DD340B;
 }
 
 .padding {
@@ -123,29 +131,10 @@ hr.light-100 {
         font-size: 4em;
         padding: 2rem;
     }
-    #video {
-        width: 600;
-    }
 }
 
 @media (max-width: 768px) {
-    .carousel-caption {
-        top: 45%;
-    }
 
-    .carousel-caption h1 {
-        font-size: 350%;
-    }
-
-    .carousel-caption h3 {
-        font-size: 140%;
-        font-weight: 400;
-        padding-bottom: .2rem;
-    }
-    .carousel-caption .btn {
-        font-size: 95%;
-        padding: 8px 14px;
-    }
     .display-4 {
         font-size: 200%;
     }
@@ -153,41 +142,16 @@ hr.light-100 {
         font-size: 2.5em;
         padding: 1.2rem;
     }
-    #video {
-        width: 400;
-    }
 }
 
 @media (max-width: 576px) {
-    .carousel-caption {
-        top: 40%;
-    }
 
-    .carousel-caption h1 {
-        font-size: 250%;
-    }
-
-    .carousel-caption h3 {
-        font-size: 110%;
-        font-weight: 400;
-        padding-bottom: .2rem;
-    }
-    .carousel-caption .btn {
-        font-size: 90%;
-        padding: 4px 8px;
-    }
-    .carousel-indicators {
-        display: none;
-    }
     .display-4 {
         font-size: 160%;
     }
     .social a {
         font-size: 2em;
         padding: .7rem;
-    }
-    #video {
-        width: 200;
     }
 
 }
