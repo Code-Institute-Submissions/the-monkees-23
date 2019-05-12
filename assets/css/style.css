@@ -5,7 +5,8 @@ body {
     height: 100%;
     width: 100%;
     font-family: 'poppins', sans-serif;
-    color: #222;
+    color: #fff;
+    background-color: #424949;
 }
 
 /*---------------- NAV ------------------*/
@@ -25,7 +26,9 @@ body {
 
 /*------------- MAIN PIC ------------------*/
 
-.main-pic {}
+.main-pic {
+    background-color: blue;
+}
 
 /*------------ WEDDINGS ---------------------*/
 
@@ -35,6 +38,13 @@ body {
     color: #fff;
     margin-bottom: 2rem;
     border-radius: 20px;
+}
+
+.fun:hover{
+    background-color: #fff; 
+    color: #DD340B;
+    transition: .5s;
+    border-color: #DD340B;
 }
 
 .wedding-pic {
