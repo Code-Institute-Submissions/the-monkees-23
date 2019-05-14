@@ -14,6 +14,10 @@ body {
     padding: 0;
 }
 
+p {
+    margin: auto;
+    padding: 20px;
+}
 /*---------------- NAV ------------------*/
 
 .navbar {
@@ -128,6 +132,10 @@ body {
 .fa-instagram:hover,
 .fa-youtube:hover {
     color: #d5d5d5;
+}
+
+.connect {
+    background-color: #EAEDED;
 }
 
 /*------------ FOOTER ------------------*/
