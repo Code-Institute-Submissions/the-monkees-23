@@ -76,6 +76,8 @@ p {
 
 
 .booking-btn {
+    position: absolute;
+    right: 45%;
     background-color: #DD340B;
     color: #fff;
     border-radius: 10px;
