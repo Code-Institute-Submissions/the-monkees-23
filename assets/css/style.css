@@ -7,6 +7,13 @@ body {
     font-family:'Luckiest Guy', cursive;, sans-serif;
 }
 
+.container, 
+.container-fluid, 
+.row {
+    margin: 0;
+    padding: 0;
+}
+
 /*---------------- NAV ------------------*/
 
 .navbar {
@@ -31,16 +38,13 @@ body {
 
 /*------------- SONGS -----------------------*/
 
-.songs {
-        color: #fff;
-      background-color: #424949;
-}
+
 
 /*------------ WEDDINGS ---------------------*/
 
 .fun {
     font-size: 30px;
-    background-color: #DD340B;
+    background-color: #85929E;
     color: #fff;
     margin-bottom: 2rem;
     border-radius: 20px;
@@ -59,8 +63,8 @@ body {
 }
 
 .wed-rings-img {
-    height: 300px; 
-    width: 380px;
+    width: 280px;
+    height: 199px;
 }
 
 
@@ -183,3 +187,5 @@ hr.light-100 {
         width: 380px;
     }
 }
+
+
