@@ -48,20 +48,6 @@ p {
 
 /*------------ WEDDINGS ---------------------*/
 
-.fun {
-    font-size: 30px;
-    background-color: #85929E;
-    color: #fff;
-    margin-bottom: 2rem;
-    border-radius: 20px;
-}
-
-.fun:hover {
-    background-color: #fff;
-    color: #DD340B;
-    transition: .5s;
-    border-color: #DD340B;
-}
 
 .wedding-pic {
     height: 100px;
