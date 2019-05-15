@@ -36,9 +36,12 @@ p {
 /*------------- MAIN PIC ------------------*/
 
 .main-pic {
+    margin: 0;
     width: 100%;
-    background-color: #1C2833;
+    border: 5px solid #fff;
+ 
 }
+
 
 /*------------- SONGS -----------------------*/
 
@@ -62,8 +65,7 @@ p {
 
 
 .booking-btn {
-    position: absolute;
-    right: 45%;
+    margin: auto;
     background-color: #DD340B;
     color: #fff;
     border-radius: 10px;
@@ -90,6 +92,18 @@ p {
     width: 95%;
     margin-top: .3rem;
     margin-bottom: 1rem;
+}
+
+/*-------------Meet the Band------------------*/
+
+.band-bg {
+    background-color: #566573;
+    color: #fff;
+}
+
+.band-bg-1 {
+    background-color: #566573;
+    color: #000;
 }
 
 /*----------- CONNECT -------------------*/
