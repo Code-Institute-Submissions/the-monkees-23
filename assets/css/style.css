@@ -47,6 +47,30 @@ p {
     background-color: #34495E;
 }
 
+/*-------------Live Page --------------*/
+
+.live-body {
+    background-image: url(../images/monkees.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+    
+}
+
+.live-shows {
+    color: #fff;
+    text-align: center;
+}
+
+table {
+    background-color: rgba(28, 40, 51, 0.5);
+    text-align: center;
+    margin: auto;
+    padding: 10px;
+    color: #fff;
+}
+ .table-1, .table-2 {
+     width: 60%;
+ }
 
 /*------------- SONGS -----------------------*/
 
