@@ -13,7 +13,7 @@ and the English actor and singer Davy Jones.
 ---
 
 ## Features
-- Mark Kirwan <marco.kirwan@gmail.com>
+Each page has a navigation bar at the top with links to each page. There is also a Connect section on each page to connect to the social media sites along with a footer section at the bottom with Contact information as well as operating hours.
 
 ### Existing Features
 - Mark Kirwan <marco.kirwan@gmail.com>
