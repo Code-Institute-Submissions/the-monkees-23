@@ -34,6 +34,11 @@ p {
     !important;
 }
 
+.btn-link {
+    background-color: transparent;
+    border: none;
+}
+
 /*------------- MAIN PIC ------------------*/
 
 .main-pic {
@@ -53,7 +58,7 @@ p {
     background-image: url(../images/monkees.jpg);
     background-size: cover;
     background-repeat: no-repeat;
-    
+
 }
 
 .live-shows {
@@ -68,10 +73,33 @@ table {
     padding: 10px;
     color: #fff;
 }
- .table-1, .table-2 {
-     width: 60%;
- }
 
+.table-1,
+.table-2 {
+    width: 60%;
+}
+
+/*--------------Bookings ----------------------*/
+
+.bookings-bg {
+    background-image: url(../images/band.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+
+.booking {
+    margin: auto;
+    width: 35%;
+    background: rgba(28, 40, 51, 0.5);
+    color: #fff;
+    border-radius: 10px;
+    text-align: center;
+    padding: 20px;
+    margin-top: 100px;
+    margin-bottom: 100px;
+    border:2px solid #fff;
+    
+}
 /*------------- SONGS -----------------------*/
 
 .songs {
