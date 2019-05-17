@@ -37,10 +37,14 @@ p {
 /*------------- MAIN PIC ------------------*/
 
 .main-pic {
-    margin: 0;
-    width: 100%;
-    border: 5px solid #fff;
+    margin-left: 10%;
+    margin-top: 25px;
+    margin-bottom: 25px;
+    width: 80%;
+}
 
+.main-pic-bg {
+    background-color: #34495E;
 }
 
 
@@ -48,6 +52,10 @@ p {
 
 .songs {
     background-color: #D5DBDB;
+}
+
+controls {
+    background-color: #27AE60;
 }
 
 /*------------ WEDDINGS ---------------------*/
